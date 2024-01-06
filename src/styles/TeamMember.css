@@ -1,11 +1,22 @@
 /* /src/styles/TeamMembers.css */
 
+.team-page {
+    background-color: rgb(0, 0, 73);
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
 .team-members {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     text-align: center;
 }
+
+.member-info a img {
+    border-radius: 1px 15px 1px 15px;
+    
+} 
 
 .member-info {
     text-align: center;
