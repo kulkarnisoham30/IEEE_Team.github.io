@@ -42,6 +42,10 @@
     .team-members {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .member-info {
+        font-size: small;
+    }
 }
 
 @media (max-width: 480px) {
